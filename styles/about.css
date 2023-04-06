@@ -1,0 +1,44 @@
+/* this is nav-2-area style  */
+.nav-2-area {
+    background: #0CAA7D;
+
+}
+
+.nav-2-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    margin: 0px auto;
+}
+
+/* this is nav-2 style  */
+.nav-2-menu {
+    display: flex;
+    gap: 25px;
+
+}
+
+.nav-2-menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.nav-2-login {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.nav-2-login img {
+    width: 50%;
+    height: 50%;
+    border-radius: 4px;
+}
