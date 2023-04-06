@@ -1,0 +1,142 @@
+/* header section style */
+.header-area {
+    background-image: url('images/hero-bg.png');
+    padding: 10px;
+
+}
+
+/* nave-1 style  */
+.nav-1-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-1-call {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.page-logo {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 5px;
+}
+
+.page-logo img {
+    /* width: 25%; */
+    width: 45px;
+    height: 42.77px;
+}
+
+.page-logo h2 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #0878A0;
+}
+
+
+/* header banner style  */
+.header-banner {
+    background-image: url('/images/hero-bg.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    margin: 0px auto;
+    gap: 100px;
+}
+
+.banner-description {
+    width: 50%;
+}
+
+#banner-title {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    margin-bottom: 0px;
+    color: #101010;
+}
+
+#banner-info {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #101010;
+    margin-bottom: 35px;
+}
+
+.banner-img img {
+    width: 125%;
+
+}
+
+#banner-btn {
+    width: 175px;
+    height: 44px;
+    border-radius: 10px;
+    background: #FB1004;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+
+
+/* responsive for mobile under 576px screen size */
+
+@media screen and (max-width:576px) {
+    .header-area {
+        padding: 5px;
+        border-radius: 8px;
+    }
+
+    .header-banner {
+        flex-direction: column;
+
+        gap: 50px;
+        width: 100%;
+    }
+
+    .page-logo h2 {
+        font-size: 16px;
+    }
+
+    .page-logo img {
+        width: 35px;
+        height: 30px;
+    }
+
+    .nav-1-call {
+        font-weight: bold;
+        font-size: small;
+    }
+
+    .banner-description {
+        width: 100%;
+    }
+
+    #banner-title {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 64px;
+        font-weight: 900;
+    }
+
+    #banner-info {
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    .banner-img img {
+        /* width: 320px; */
+        width: 100%;
+
+    }
+
+}
