@@ -25,3 +25,11 @@
     font-size: 32px;
     line-height: 38px;
 }
+
+/* responsive for mobile screen under 576px */
+@media screen and (max-width:576px) {
+    .portfolio-container{
+        flex-direction: column;
+    }
+    
+}
