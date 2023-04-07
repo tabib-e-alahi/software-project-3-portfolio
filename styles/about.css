@@ -12,7 +12,6 @@
     margin: 0px auto;
 }
 
-/* this is nav-2 style  */
 .nav-2-menu {
     display: flex;
     gap: 25px;
@@ -41,4 +40,78 @@
     width: 50%;
     height: 50%;
     border-radius: 4px;
+}
+
+/* about design section  */
+.about-area {
+
+    margin: 75px 120px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.about-img img {
+    width: 625px;
+    height: 500px;
+}
+
+.about-info p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.about-info h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.about-info button {
+    width: 182.09px;
+    height: 48px;
+    background: #FB1004;
+    border-radius: 10px;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 12px 44px;
+    border-width: 0px;
+}
+
+/* responsive for mobile under 576px screen size */
+@media screen and (max-width:576px) {
+
+    .about-area {
+        flex-direction: column;
+        margin: 25px 8px;
+    }
+
+    .about-img img {
+        width: 380px;
+        height: 320px;
+
+    }
+
+    .nav-2-content{
+        display: none;
+    }
+
+
+    /* .nav-2-content{
+    width: 100%;
+    gap: 1px;   
+    }
+
+    .nav-2-menu a{
+        font-size: 16px;
+    }
+    .nav-2-menu{
+        gap: 5px;
+    }
+    .nav-2-login{
+        gap: 3px;
+    } */
 }
