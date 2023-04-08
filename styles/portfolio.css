@@ -1,3 +1,5 @@
+
+
 .portfolio-container {
     display: flex;
     gap: 20px;
@@ -26,10 +28,42 @@
     line-height: 38px;
 }
 
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
+
+.container img:hover {
+    filter: contrast(20%);
+    /* filter: blur(4px); */
+    background-color: dimgrey;
+
+}
+
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centered-text {
+    
+    width: 223.73px;
+    height: 39px;
+    font-weight: bolder;
+    font-size: 28px;
+    
+    font-family: 'poppins';
+    color: white;
+}
+
 /* responsive for mobile screen under 576px */
 @media screen and (max-width:576px) {
-    .portfolio-container{
+    .portfolio-container {
         flex-direction: column;
     }
-    
+
 }
