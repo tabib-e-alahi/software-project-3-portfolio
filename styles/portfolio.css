@@ -47,18 +47,15 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-
-.centered-text {
-    
     width: 223.73px;
     height: 39px;
-    font-weight: bolder;
+    font-weight: 900;
     font-size: 28px;
     
     font-family: 'poppins';
     color: white;
 }
+
 
 /* responsive for mobile screen under 576px */
 @media screen and (max-width:576px) {

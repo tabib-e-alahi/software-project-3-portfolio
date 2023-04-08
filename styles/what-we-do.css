@@ -1,6 +1,4 @@
-body{
-    background-color: rgb(236, 236, 241);
-}
+
 
 .what-we-section {
     margin-top: 30px;
@@ -42,6 +40,9 @@ body{
     border-radius: 15px;
     padding: 10px;
     color: white;
+}
+.red-bg:hover,.green-bg:hover{
+    transform: scale(1.2);
 }
 
 

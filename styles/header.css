@@ -1,6 +1,7 @@
 /* header section style */
 body{
     font-family: 'poppins';
+    background-color: rgb(236, 236, 241);
 }
 .header-area {
     background-image: url('/images/hero-bg.png');
